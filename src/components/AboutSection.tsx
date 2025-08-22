@@ -4,9 +4,9 @@ import { motion } from 'motion/react';
 export function AboutSection() {
   const skills = [
     { category: "Design", items: ["Figma", "Adobe Creative Suite", "Prototyping", "UI/UX Design"] },
-    { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "HTML/CSS"] },
-    { category: "Backend", items: ["Python", "C++", "Node.js", "APIs"] },
-    { category: "Tools", items: ["Git", "GitHub", "Streamlit", "HTTP Protocols"] }
+    { category: "Frontend", items: ["React", "JavaScript", "TypeScript", "HTML/CSS"] },
+    { category: "Backend", items: ["Python", "C++", "Node.js", "FastAPI"] },
+    { category: "Tools", items: ["OpenAI API", "GitHub", "Streamlit", "HTTP Protocols"] }
   ];
 
   return (
